@@ -77,12 +77,16 @@ nav a {
 }
 
 .lead.story-image {
+  display: flex;
+  flex-direction: column;
   text-align: left;
   width: 630px;
+  justify-content: center;
 }
 
 .lead.story-image span {
   font-size: 40px;
+  margin-left: 20px;
 }
 
 .story-image {
@@ -102,16 +106,19 @@ nav a {
 .earth {
   background-image: url(https://raw.githubusercontent.com/jawadsaad/mytimes/master/resources/images/img-story-2.png);
   margin-top: 15px;
+  align-items: center;
 }
 
 .camera {
   background-image: url(https://raw.githubusercontent.com/jawadsaad/mytimes/master/resources/images/img-story-3.png);
   margin-top: 15px;
+  align-items: center;
 }
 
 .cat {
   background-image: url(https://raw.githubusercontent.com/jawadsaad/mytimes/master/resources/images/img-story-1.png);
   margin-top: 15px;
+  align-items: center;
 }
 
 .stories {
