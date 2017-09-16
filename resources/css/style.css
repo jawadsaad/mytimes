@@ -2,13 +2,6 @@ body {
   margin: 0;
 }
 
-/* Div borders when needed */
-/*
-div {
-  border: 1px solid black;
-}
-*/
-
 /* This is the header section */
 header {
   display: flex;
@@ -183,3 +176,42 @@ nav a {
   border-bottom: 1px solid black;
   padding: 11px 20px;
 }
+/* End of main section */
+
+/* This is the footer section */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 325px;
+}
+
+.info {
+  display: block;
+}
+
+.title {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+}
+
+.info nav {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.copyright {
+  display: block;
+}
+/* End of footer section */
